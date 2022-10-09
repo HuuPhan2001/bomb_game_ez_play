@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: eee175e82ccfbc54a8d9dfe99302987f
+guid: 6f0997bc640739d45bf2677c5f192637
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,14 +63,14 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BrickDestroy_0
+      name: PlayerBlueDeath_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 16
-        height: 16
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57c651413979eb340ad8b197a66d8b8e
-      internalID: -112408200
+      spriteID: 21b572fa5231e104db7afcbcc0065ff9
+      internalID: -1988623446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickDestroy_1
+      name: PlayerBlueDeath_1
       rect:
         serializedVersion: 2
         x: 16
         y: 0
         width: 16
-        height: 16
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93e0c18074c190745903755a8278a6ca
-      internalID: 24713675
+      spriteID: fc47f37d51dfc8742a4888f5fb8102ca
+      internalID: -1983565517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickDestroy_2
+      name: PlayerBlueDeath_2
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 16
-        height: 16
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50f68759fc4a48d4e8c676608533a787
-      internalID: 444719744
+      spriteID: 4b1612a5ee485084681dc0bf50f473b5
+      internalID: 301316337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickDestroy_3
+      name: PlayerBlueDeath_3
       rect:
         serializedVersion: 2
         x: 48
         y: 0
         width: 16
-        height: 16
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a4d06026fdd6e44196000d53ed2c6ed
-      internalID: -1906606070
+      spriteID: 43cc9282204841d41b55aa7e55cb6660
+      internalID: 865384838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickDestroy_4
+      name: PlayerBlueDeath_4
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 16
-        height: 16
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1a794087b011d04cacf6827872574ff
-      internalID: 1424732140
+      spriteID: 7c0d0b21c0c6eab478932735975eff73
+      internalID: 955169989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickDestroy_5
+      name: PlayerBlueDeath_5
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 16
-        height: 16
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,29 +236,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 773f5891174ccef4d948af7b6f939fd3
-      internalID: 182689557
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BrickDestroy_6
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4251948cae4e93842a904c57740f0421
-      internalID: -1772409357
+      spriteID: f5a1baa11a4aa464e89c37fe5440032f
+      internalID: 136830129
       vertices: []
       indices: 
       edges: []
@@ -274,13 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BrickDestroy_4: 1424732140
-      BrickDestroy_5: 182689557
-      BrickDestroy_6: -1772409357
-      BrickDestroy_1: 24713675
-      BrickDestroy_2: 444719744
-      BrickDestroy_3: -1906606070
-      BrickDestroy_0: -112408200
+      PlayerBlueDeath_4: 955169989
+      PlayerBlueDeath_3: 865384838
+      PlayerBlueDeath_2: 301316337
+      PlayerBlueDeath_1: -1983565517
+      PlayerBlueDeath_0: -1988623446
+      PlayerBlueDeath_5: 136830129
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

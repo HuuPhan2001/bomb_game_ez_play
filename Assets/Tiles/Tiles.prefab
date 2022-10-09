@@ -25,13 +25,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000300988974045493}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.14, y: -0.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1915495238874953827}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!156049354 &7902724366399716801
 Grid:
@@ -76,7 +76,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4873325427114766866}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1839735485 &5499248118392172846
 Tilemap:
@@ -253,13 +253,13 @@ Tilemap:
   - m_RefCount: 6
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   - m_RefCount: 1
-    m_Data: {r: 0.8880836, g: 0.59815013, b: 0.60218376, a: 1}
+    m_Data: {r: 0.8513011, g: 0.3526477, b: 0.39833736, a: 1}
   - m_RefCount: 1
-    m_Data: {r: 0.93067247, g: 0.48660243, b: 0.5315809, a: 1}
+    m_Data: {r: 0.73655236, g: 0.35535148, b: 0.42017022, a: 1}
   - m_RefCount: 1
-    m_Data: {r: 0.7901997, g: 0.4734282, b: 0.53629285, a: 1}
+    m_Data: {r: 0.9643531, g: 0.4649528, b: 0.6019976, a: 1}
   - m_RefCount: 1
-    m_Data: {r: 0.8022119, g: 0.46077296, b: 0.5054085, a: 1}
+    m_Data: {r: 0.94150674, g: 0.4099944, b: 0.50962967, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}

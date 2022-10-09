@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: eee175e82ccfbc54a8d9dfe99302987f
+guid: 696b308eecd0d844cb28c45a5eb12230
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,14 +63,14 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BrickDestroy_0
+      name: ExplosionMiddle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57c651413979eb340ad8b197a66d8b8e
-      internalID: -112408200
+      spriteID: d8eed6f714a5292418c7b20856febec8
+      internalID: 260836688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickDestroy_1
+      name: ExplosionMiddle_1
       rect:
         serializedVersion: 2
         x: 16
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93e0c18074c190745903755a8278a6ca
-      internalID: 24713675
+      spriteID: 5e62d91660cd4e54fafed5256940d4c7
+      internalID: -1770009006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickDestroy_2
+      name: ExplosionMiddle_2
       rect:
         serializedVersion: 2
         x: 32
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50f68759fc4a48d4e8c676608533a787
-      internalID: 444719744
+      spriteID: 117e50e0b1d416a49be1a51ad80f419a
+      internalID: -1621018682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickDestroy_3
+      name: ExplosionMiddle_3
       rect:
         serializedVersion: 2
         x: 48
@@ -194,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a4d06026fdd6e44196000d53ed2c6ed
-      internalID: -1906606070
+      spriteID: 15cf65cde0f088b4f89062a5e806fc5e
+      internalID: -452611434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickDestroy_4
+      name: ExplosionMiddle_4
       rect:
         serializedVersion: 2
         x: 64
@@ -215,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1a794087b011d04cacf6827872574ff
-      internalID: 1424732140
+      spriteID: 96c38fc48e827d740b0452b9a9974f13
+      internalID: -486620657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickDestroy_5
+      name: ExplosionMiddle_5
       rect:
         serializedVersion: 2
         x: 80
@@ -236,14 +236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 773f5891174ccef4d948af7b6f939fd3
-      internalID: 182689557
+      spriteID: e4ab3f330fb95164098446f9b8602888
+      internalID: 956434637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickDestroy_6
+      name: ExplosionMiddle_6
       rect:
         serializedVersion: 2
         x: 96
@@ -257,8 +257,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4251948cae4e93842a904c57740f0421
-      internalID: -1772409357
+      spriteID: 38023439010f21c46a5b1cd997a77820
+      internalID: -206600464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionMiddle_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5096356d766ea0345a04e5b70e8267d6
+      internalID: 1961883951
       vertices: []
       indices: 
       edges: []
@@ -274,13 +295,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BrickDestroy_4: 1424732140
-      BrickDestroy_5: 182689557
-      BrickDestroy_6: -1772409357
-      BrickDestroy_1: 24713675
-      BrickDestroy_2: 444719744
-      BrickDestroy_3: -1906606070
-      BrickDestroy_0: -112408200
+      ExplosionMiddle_3: -452611434
+      ExplosionMiddle_1: -1770009006
+      ExplosionMiddle_0: 260836688
+      ExplosionMiddle_7: 1961883951
+      ExplosionMiddle_2: -1621018682
+      ExplosionMiddle_6: -206600464
+      ExplosionMiddle_5: 956434637
+      ExplosionMiddle_4: -486620657
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
