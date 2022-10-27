@@ -4628,6 +4628,83 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2052380210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2052380211}
+  - component: {fileID: 2052380212}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2052380211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052380210}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2052380212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052380210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fed4d769b2ab1949ab584c1ca646e78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Items
+    clip: {fileID: 8300000, guid: 2ccac210ecc0e704f81a7ca968b841e7, type: 3}
+    mixer: {fileID: 24300002, guid: c49203196b5fd024f96a2852812cf025, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    output: {fileID: 0}
+  - name: Bomb
+    clip: {fileID: 8300000, guid: 1a1edd76c57ef5045b623584645f08ae, type: 3}
+    mixer: {fileID: 24300002, guid: c49203196b5fd024f96a2852812cf025, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    output: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 5c04543371857cb44ae3a99e33a09d73, type: 3}
+    mixer: {fileID: 24300002, guid: c49203196b5fd024f96a2852812cf025, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    output: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: 46e228657929a6d4c8b2035db18f7e4c, type: 3}
+    mixer: {fileID: 24300002, guid: c49203196b5fd024f96a2852812cf025, type: 2}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    output: {fileID: 0}
 --- !u!1 &2068148622
 GameObject:
   m_ObjectHideFlags: 0

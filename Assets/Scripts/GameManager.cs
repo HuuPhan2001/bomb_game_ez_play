@@ -16,7 +16,10 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        if (aliveCount <= 1) {
+        if (aliveCount <= 1)
+        {
+            AudioManager.instance.Stop("Theme");
+            AudioManager.instance.Play("GameOver");
             Invoke(nameof(NewRound), 3f);
         }
     }

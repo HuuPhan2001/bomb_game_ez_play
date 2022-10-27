@@ -90,6 +90,7 @@ public class BombController : MonoBehaviour
         Explosion explosion = Instantiate(explosionPrefab, position, Quaternion.identity);
         explosion.SetActiveRenderer(length > 1 ? explosion.middle : explosion.end);
         explosion.SetDirection(direction);
+        AudioManager.instance.Play("Bomb");
         explosion.DestroyAfter(explosionDuration);
         //Destroy(explosion.gameObject, explosionDuration);
 

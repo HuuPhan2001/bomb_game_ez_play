@@ -38,6 +38,7 @@ public class ItemPickup : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             OnItemPickup(collision.gameObject);
+            AudioManager.instance.Play("Items");
         }
     }
 }

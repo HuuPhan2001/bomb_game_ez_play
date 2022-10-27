@@ -26,6 +26,7 @@ public class AnimatedSpriteRenderer : MonoBehaviour
     }
     private void Start()
     {
+        AudioManager.instance.Play("Theme");
         InvokeRepeating(nameof(NextFrame), animationTime, animationTime);
     }
     private void NextFrame()
