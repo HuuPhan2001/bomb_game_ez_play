@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bomberman_Map1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Bomberman_Map2.unity
+    guid: e9354b066db8ac542875d9650da46767
+  - enabled: 1
+    path: Assets/Scenes/Bomberman_Map3.unity
+    guid: a0175c57332fae341a5e544831e1ab4e
   m_configObjects: {}
